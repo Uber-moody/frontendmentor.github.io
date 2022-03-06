@@ -1,0 +1,118 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(233, 47%, 7%);
+}
+
+.container{
+    background-color: hsl(244, 38%, 16%);
+    width: 1112px;
+    height: 446px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+   
+}
+
+img{
+    width: 541px;
+    position: relative;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    left: 570px;
+    height: 446px;   
+}
+
+.image-card{
+    background-color: hsl(277, 64%, 61%, 90%);
+    width: 541px;
+    height: 446px;
+    position: absolute;
+    top: 0;
+    left: 570px;
+    opacity: 80%;
+    mix-blend-mode: multiply; /* this was to change the color of the image- using the opacity and background color setting.*/
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.text{
+    width: 379px;
+}
+
+.text h1{
+    margin-block-start: -11em;
+    margin-inline-start: 71px;
+    margin-inline-end: -79px;
+    font-size: 35px;
+    color: hsl(0, 0%, 100%);
+}
+
+.text h1 span{
+    color: hsl(277, 64%, 61%);
+}
+
+.text p{
+    display: block;
+    margin-inline-start: 71px;
+    font-size: 13.5px;
+    width: 350px;
+    line-height: 1.4;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+}
+
+.stats{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    padding: 20px;
+    width: 354px;
+    margin-inline-start: 25px;
+    line-height: 15px;
+    
+}
+
+
+
+
+.stats .stat-container h2 {
+    color:  hsl(0, 0%, 100%);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.stats .stat-container p {
+    color: hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 1.5px;
+    
+}
+
+footer {
+   
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+
+    transform: translate(-50%);
+  }
+  
+  footer .attribution {
+    font-size: 11px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  footer .attribution a {
+    color: #ffffff;
+  }
+
